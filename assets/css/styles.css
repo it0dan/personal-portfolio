@@ -655,8 +655,9 @@ img {
 
 /*==================== SERVICES ====================*/
 .services__container {
-  gap: 1.5rem;
-  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem; /* Adjust spacing for better alignment */
+  grid-template-columns: repeat(2, 1fr); /* Ensure consistent alignment for two columns */
+  justify-content: center; /* Center the items in the container */
 }
 
 .services__content {
@@ -745,7 +746,6 @@ img {
   color: var(--first-color);
   margin-right: var(--mb-0-25);
 }
-
 
 /* Active Modal */
 .active-modal {
