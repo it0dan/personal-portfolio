@@ -659,12 +659,17 @@ img {
 
 /*==================== SERVICES ====================*/
 .services__container {
-  gap: 2rem; /* Adjust spacing for better alignment */
-  grid-template-columns: repeat(2, 1fr); /* Ensure consistent alignment for two columns */
-  justify-content: center; /* Center the items in the container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
+
 .services__content {
+  flex: 1 1 300px;
+  max-width: 400px;
   position: relative;
   background-color: var(--container-color);
   padding: 3.5rem 5rem 1.25rem 1.5rem;
@@ -672,6 +677,7 @@ img {
   box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
   transition: .3s;
 }
+
 
 .services__content:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
