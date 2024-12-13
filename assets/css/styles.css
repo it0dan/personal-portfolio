@@ -523,6 +523,10 @@ img {
   background-color: var(--first-color);
 }
 
+.skills__arq {
+  width: 80%;
+}
+
 .skills__rest {
   width: 70%;
 }
