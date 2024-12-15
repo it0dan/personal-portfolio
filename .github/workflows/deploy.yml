@@ -25,7 +25,7 @@ jobs:
       # Realiza deploy no servidor EC2
       - name: Deploy to EC2
         run: |
-          ssh -i ~/.ssh/id_ed25519 ubuntu@ip-172-31-36-10 "
+          ssh -i ~/.ssh/id_ed25519 ubuntu@ec2-18-212-108-204.compute-1.amazonaws.com "
             cd /opt/web-server/personal-portfolio &&
             git pull origin main &&
             sudo systemctl restart nginx
