@@ -589,18 +589,17 @@ img {
 .skills__percentage.skills__governance { width: 80%; }
 .skills__percentage.skills__indicators { width: 75%; }
 .skills__percentage.skills__slos       { width: 70%; }
-.skills__percentage.skills__reference  { width: 80%; }
-.skills__percentage.skills__arbadrs    { width: 70%; }
-.skills__percentage.skills__eaframeworks { width: 60%; }
-.skills__percentage.skills__privacy    { width: 65%; }
-.skills__percentage.skills__audits     { width: 60%; }
+.skills__percentage.skills__reference  { width: 70%; }
+.skills__percentage.skills__arbadrs    { width: 60%; }
+.skills__percentage.skills__eaframeworks { width: 40%; }
+.skills__percentage.skills__privacy    { width: 70%; }
+.skills__percentage.skills__audits     { width: 65%; }
 
-.skills__percentage.skills__apistrategy  { width: 75%; }
-.skills__percentage.skills__intpatterns  { width: 80%; }
+.skills__percentage.skills__apistrategy  { width: 90%; }
+.skills__percentage.skills__intpatterns  { width: 90%; }
 .skills__percentage.skills__domainmap    { width: 65%; }
-.skills__percentage.skills__apparch      { width: 80%; }
-.skills__percentage.skills__observability{ width: 70%; }
-.skills__percentage.skills__methods      { width: 60%; }
+.skills__percentage.skills__apparch      { width: 65%; }
+.skills__percentage.skills__observability{ width: 80%; }
 
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
